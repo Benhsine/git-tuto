@@ -1,0 +1,12 @@
+1- """cd directory""" where the project exist
+2- """git init""" to initialise git
+3- """git status""" to know if there is any changes to commit
+4- """git add (. or file or directory)""" in the project
+5- """git commit -m "message for the version" """ 
+7- you may have to log in with your email  git config --global user.email "yassinebenhssine3@gmail.com"
+					and	username	 git config --global user.name "yassine"
+6- if you want to save a file in the same precendent version you just had saved or you want to change the name of the version put
+ """ git commit -m "new message" --amend """ after slecting all files git add . or file or ...
+7- if you want to unselect a file do """git reset file""" (allways . and dir are possible)
+8- git checkout -- file (the file will go back for befor changes)
+9- git log to see versions you had saved before
